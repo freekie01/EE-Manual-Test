@@ -1,17 +1,30 @@
+Feature:
+
 Create a booking
 
-| Given  | When | Then|
-| ------------- | ------------- | ------ |
-| I add a valid firstname, surname, deposit, checkin, checkout values  | When I select Save  | The details will be displayed on the screen|
-| I add a valid firstname  | When I select Save  | The details will not be saved|
-| I add a valid surname  | When I select Save  | The details will not be saved|
-| I add a valid deposit  | When I select Save  | The details will not be saved|
-| I add a valid checkin date  | When I select Save  | The details will not be saved|
-| I add a valid checkout date  | When I select Save  | The details will not be saved|
+|ID| Given  | When | Then| Outcome|
+|---| ------------- | ------------- | ------ |-------|
+|1| I add a valid firstname, surname, deposit, checkin, checkout values  | When I select Save  | The details will be displayed on the screen|As expected |
+|2| I add a valid firstname  | When I select Save  | The details will not be saved|As expected|
+|3| I add a valid surname  | When I select Save  | The details will not be saved|As expected|
+|4| I add a valid deposit  | When I select Save  | The details will not be saved|As expected|
+|5| I add a valid checkin date  | When I select Save  | The details will not be saved|As expected|
+|6| I add a valid checkout date  | When I select Save  | The details will not be saved|As expected|
+
+Feature:
 
 Delete a booking
 
-| Given  | When | Then|
-| ------------- | ------------- | -------- |
-| There is a booking row  | When I select Delete  | The details will be deleted|
+|ID| Given  | When | Then| Outcome|
+| ------------- | ------------- | -------- |----------|
+|1| There is a booking row  | When I select Delete  | The details will be deleted|As expected|
+
+Run all the tests using the following Browsers:
+Chrome
+Safari
+Edge
+IE
+
+
+
 
