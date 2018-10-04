@@ -1,5 +1,11 @@
 The acceptance tests below will start to cover the following:
+
 Create a booking
+
 Update a booking
+
 Delete a booking
+
 Validate the fields
+
+Cross Browser testing
