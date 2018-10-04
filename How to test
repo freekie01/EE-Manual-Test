@@ -1,7 +1,7 @@
 Create a booking
 
 | Given  | When | Then|
-| ------------- | ------------- | |
+| ------------- | ------------- | ------ |
 | I add a valid firstname, surname, deposit, checkin, checkout values  | When I select Save  | The details will be displayed on the screen|
 | I add a valid firstname  | When I select Save  | The details will not be saved|
 | I add a valid surname  | When I select Save  | The details will not be saved|
@@ -12,6 +12,6 @@ Create a booking
 Delete a booking
 
 | Given  | When | Then|
-| ------------- | ------------- | |
+| ------------- | ------------- | -------- |
 | There is a booking row  | When I select Delete  | The details will be deleted|
 
