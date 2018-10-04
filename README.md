@@ -4,7 +4,7 @@ Exploratory testing steps for EE
 
 The purpose of the exercise it to help us understand how my approach to Exploratory testing of http://hotel-test.equalexperts.io/ 
 
-It covers:
+See the files named below:
 
 	What to test
 	
