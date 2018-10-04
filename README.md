@@ -10,6 +10,7 @@ It covers:
 	
 	How it can be tested
 
-	
 	Defects
+	
+	Queries
 	
