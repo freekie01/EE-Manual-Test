@@ -9,8 +9,7 @@ It covers:
 	What to test
 	
 	How it can be tested
-	
-	What needs to be looked 
+
 	
 	Defects
 	
